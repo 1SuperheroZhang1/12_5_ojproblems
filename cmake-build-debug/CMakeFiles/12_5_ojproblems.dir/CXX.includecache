@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/CLionProjects/middle/12.Tree/12.5_ojproblems/function.h
+stdio.h
+-
+stdlib.h
+-
+
+D:/CLionProjects/middle/12.Tree/12.5_ojproblems/main.cpp
+function.h
+D:/CLionProjects/middle/12.Tree/12.5_ojproblems/function.h
+
